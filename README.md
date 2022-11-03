@@ -3,7 +3,7 @@ This code is to run on the CMSSW 12_5_0. To run this code follow the instruction
 
 To compile CMSSW 12_5_0 to analyze miniAOD run the following commands:
 `cmsrel CMSSW_12_5_0` <br />
-`cd CMSSW_!2_5_0/src` <br />
+`cd CMSSW_12_5_0/src` <br />
 `cmsenv` <br /> 
 `scram build -j8` <br/>
 `mkdir Demo` <br />
@@ -20,7 +20,7 @@ Run the code with following commmand <br />
 
 To compile CMSSW 12_5_0 to analyze AOD run the following commands:
 `cmsrel CMSSW_12_5_0` <br />
-`cd CMSSW_!2_5_0/src` <br />
+`cd CMSSW_12_5_0/src` <br />
 `cmsenv` <br /> 
 `git cms-merge-topic CmsHI:forest_CMSSW_12_5_0` <br />
 `git remote add cmshi git@github.com:CmsHI/cmssw.git` <br />
