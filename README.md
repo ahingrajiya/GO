@@ -13,7 +13,6 @@ To compile CMSSW 12_5_0 to analyze miniAOD run the following commands:
 
 Copy the `ConfFile_cfg_miniAODselec.py` in the `python` folder inside the `Demo` directory. Copy `BuildFile.xml` and `DemoAnalyzer_Tree.cc` file to `plugins` folder in the `Demo/DemoAnalyzer/` directory. <br />
 
-Now go to `python` folder.
 Now go back to `Demo` folder again and run command `scram b`. This will compile EDAnalyzer.
 Now go to `Demo/DemoAnalyzer/python` folder.
 Run the code with following commmand <br />
