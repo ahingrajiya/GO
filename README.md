@@ -16,7 +16,7 @@ Copy the `ConfFile_cfg_miniAODselec.py` in the `python` folder inside the `Demo`
 Now go back to `Demo` folder again and run command `scram b`. This will compile EDAnalyzer.
 Now go to `Demo/DemoAnalyzer/python` folder.
 Run the code with following commmand <br />
-`cmsRel ConfFile_cfg_miniAODselec.py`
+`cmsRun ConfFile_cfg_miniAODselec.py`
 
 
 To compile CMSSW 12_5_0 to analyze AOD run the following commands:
@@ -35,4 +35,4 @@ Copy the `ConfFile_cfg_AOD.py` in the `python` folder inside the `Demo` director
 
 Now go to `python` folder.
 Run the code with following commmand <br />
-`cmsRel ConfFile_cfg_AOD.py`
+`cmsRun ConfFile_cfg_AOD.py`
